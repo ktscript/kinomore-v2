@@ -32,7 +32,7 @@ export const Player = () => {
         allowFullScreen
         className={styles.iframe}
         onLoad={() => setIsLoading(false)}
-        src={`https://voidboost.tv/embed/${query.id}?poster=1&poster_id=4&df=1`}
+        src={`https://voidboost.net/embed/${query.id}?poster=1&poster_id=4&df=1`}
       />
       <div className={clsx(styles.spinner, isLoading && styles.isLoading)}>
         <Spinner strokeWidth={3} />
